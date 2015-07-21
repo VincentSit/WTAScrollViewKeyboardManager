@@ -11,7 +11,7 @@
 @class WTAScrollViewKeyboardManager;
 
 @protocol WTScrollViewKeyboardMangerDelegate <NSObject>
-
+@optional
 - (void)keyboardWillShow:(WTAScrollViewKeyboardManager *)keyboardManager userInfo:(NSDictionary *)userInfo;
 - (void)keyboardWillHide:(WTAScrollViewKeyboardManager *)keyboardManager userInfo:(NSDictionary *)userInfo;
 - (void)keyboardDidShow:(WTAScrollViewKeyboardManager *)keyboardManager userInfo:(NSDictionary *)userInfo;
